@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Manohar </title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Portfolio</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Internships</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Projects">Projects</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Certificates</a>
+            </li>
+          </ul>
+        </div>
+        <a href="#contact" class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">Contact</a>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">Kondeti Veera Venkata Surya Sai Manohar</span>
+          </h2>
+          <p class="text-muted">
+            Hi, I'm Kondeti Veera Venkata Surya Sai Manohar, an engineering student specializing in Computer Science with a 
+            focus on Artificial Intelligence and Machine Learning. I have a strong grasp of AI and ML concepts and am skilled 
+            in Python, SQL, and Excel. My experience includes data visualization, predictive modeling, and creating interactive
+            dashboards using Power BI. 
+          </p>
+          <p class="text-muted">
+            I’m committed to continuous learning and quickly adapting to new ideas. I love working collaboratively, 
+            using my technical and communication skills to tackle complex problems and drive innovation. I'm passionate about 
+            leveraging my skills in data to drive impactful projects and am eager to explore opportunities as a Data Analyst
+            or Data Scientist through internships or entry-level roles.
+          </p>
+          <a
+          href="Entry Level Web Developer Resume.pdf"
+          target="_blank"
+          style="text-decoration: none; color: #fff;"
+          class="c-btn h-btn mt-3 py-3 px-5 rounded-pill"
+          >
+          Hire Me
+          </a>
+ 
+          
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="images/banner-01.webp" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small>My Expertise</small>
+        <h3>
+          Internships
+        </h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon1.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>  AI-ML Virtual Intern By AWS</h4>
+              <ul class="text-muted">
+                <li>Developed and implemented machine learning models to solve real-world problems.</li>
+                <li>Conducted data preprocessing and feature engineering to improve model accuracy.</li>
+              </ul>
+              
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon2.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>PwC Switzerland Power BI Job Simulation on Forage</h4>
+              <ul class="text-muted">
+                <li>Developed Power BI dashboards to effectively convey key performance indicators (KPIs).</li>
+                <li>Analyzed HR data to identify and address gender balance issues at the executive level.</li>
+              </ul>
+              
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon3.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Accenture North America Data Analytics and Visualization Job Simulation on Forage - August 2024
+              </h4>
+              <ul class="text-muted">
+                <li>Developed data visualization dashboards to present complex data insights clearly.</li>
+                <li>Utilized advanced analytics techniques to derive actionable business insights.</li>
+              </ul>
+              
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon1.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>  AI-ML Virtual Intern By AWS</h4>
+              <ul class="text-muted">
+                <li>Developed and implemented machine learning models to solve real-world problems.</li>
+                <li>Conducted data preprocessing and feature engineering to improve model accuracy.</li>
+              </ul>
+              
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div> -->
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          
+          
+        </div>
+      </div>
+    </section>
+    <!-- expertise section ends here -->
+
+    <!-- skill section starts -->
+    <section class="skill mt-5 py-5" id="about">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress html-css">
+                  <span class="progress-value html-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">Python</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress javascript">
+                  <span class="progress-value javascript-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">PowerBI & Excel</span>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly mt-4">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress php">
+                  <span class="progress-value php-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">AI & ML</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3  ms-md-0">
+                <div class="circular-progress reactjs">
+                  <span class="progress-value reactjs-progress">0%</span>
+                </div>
+                <br>
+                <span class="text">SQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            <small>My Skills</small>
+            <h3>Technical Skills and Experience</h3>
+            <p class="text-muted">
+              Hi, I'm Kondeti Veera Venkata Surya Sai Manohar, an enthusiastic AIML student at Pragati Engineering College. 
+              With a strong foundation in Python, SQL, and Power BI, I specialize in data analysis and visualization. 
+            </p>
+            <p class="text-muted">
+              I'm particularly passionate about AI and ML projects, always eager to explore new technologies and methodologies. 
+              Whether it's building predictive models or uncovering hidden patterns in data, I thrive on solving real-world 
+              problems through data-driven insights. In my free time, I enjoy working on personal AI projects, staying updated 
+              with the latest industry trends, and participating in hackathons.
+            </p>
+            
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              <!-- here download attribute is used for adding download functionality to button  -->
+              <a
+                href="Entry Level Web Developer Resume.pdf"
+                download="SampleCV"
+                style="text-decoration: none;color: #fff;"
+                >Download CV</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+
+    <!-- portfolio section starts here -->
+    <section class="Projects" id="Projects">
+      <div class="heading text-center pt-5">
+        <small>Creative Work</small>
+        <h3>Check My Projects</h3>
+      </div>
+
+      <div id="myBtnContainer" class="text-center mt-4">
+        <!-- here we will create custom attribute using data- for filtering -->
+        <button class="filter-item" data-filter="all">All</button>
+        <button class="filter-item" data-filter="game">AI Projects</button>
+        <button class="filter-item" data-filter="webapp">Visualization Dashboards</button>
+        <button class="filter-item" data-filter="website">Website</button>
+      </div>
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/edith.gif" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">EDITH - AI VOICE ASSISTANCE</h4>
+                <span class="badge bg-secondary badge-pill">OpenAI API</span>
+                <span class="badge bg-secondary badge-pill">Python</span>
+                <span class="badge bg-secondary badge-pill mb-2">Vs Code</span
+                ><br />
+                <a href="https://github.com/manohar48936/EDITH-AI-BOT-PROJECT" class="link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/Responsive-portfolio.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Responsive-Portfolio</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Website</span
+                ><br />
+                <a href="#" class="read-more-btn link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/Dashboard.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Weather-Analysis-Dashboard</h4>
+                <span class="badge bg-secondary badge-pill">Power-BI</span>
+                <span class="badge bg-secondary badge-pill">Python</span>
+                <span class="badge bg-secondary badge-pill mb-2">SQL</span
+                ><br />
+                <a href="#" class="read-more-btn link">Uploading....</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly mt-4 px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/multi-pdf.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Multi-Chat-PDFS AI-Bot</h4>
+                <span class="badge bg-secondary badge-pill">Streamlit</span>
+                <span class="badge bg-secondary badge-pill">DeepSeek API</span>
+                <span class="badge bg-secondary badge-pill mb-2">LangChain</span
+                ><br />
+                <a href="https://github.com/manohar48936/AI-PDF-Assistant" class="read-more-btn link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/portfolio.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Portfolio-Website</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Website</span
+                ><br />
+                <a href="https://github.com/manohar48936/portfolio" class="read-more-btn link">Read More</a>
+              </div>
+            </div>
+          </div>
+          
+    </section>
+    <!-- portfolio section ends here -->
+
+
+
+    <!-- Certifications section starts -->
+    <section class="blog mt-5 pb-5" id="blog">
+      <div class="heading text-center pt-5">
+        <small>Latest News</small>
+        <h3>Certificates & Badges</h3>
+      </div>
+      <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+        <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+          <div class="card">
+            
+            <div class="card-body px-4">
+              <small>By  Amazon Web Services</small
+              >
+              <h4 class="card-title">
+                <a href="">AWS Academy Cloud Foundations</a>
+              </h4>
+              <p class="text-muted">
+                This certification teaches the fundamental concepts of cloud computing using Amazon Web Services (AWS). 
+                It includes instruction on essential services, security practices, and architectural design. Additionally, 
+                it offers practical experience with AWS tools to help you get ready for actual cloud computing situations.
+              </p>
+              <a href="https://www.credly.com/badges/1e139150-9846-487c-9ffa-b52880b9d08c/public_url" class="read-more-btn link" >Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 website all">
+          <div class="card">
+            
+            <div class="card-body px-4">
+              <small>By EDX</small
+              >
+              <h4 class="card-title">
+                <a href="">Machine Learning with Python: A Practical Introduction</a>
+              </h4>
+              <p class="text-muted">
+                The "Machine Learning with Python: A Practical Introduction" course on edX, offered by IBM, 
+                is a fantastic way to get started with machine learning. It covers both supervised and unsupervised learning, 
+                and you'll get hands-on experience with popular algorithms like classification, regression, and clustering.
+              </p>
+              <a href="https://drive.google.com/file/d/10n_yg2_luD7FVItz-Kir5ywG6uuSd7gk/view" class="read-more-btn link" >Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+          <div class="card">
+            
+            <div class="card-body px-4">
+              <small>By Alteryx</small
+              >
+              <h4 class="card-title">
+                <a href="">Machine Learning Fundamentals Micro-Credential</a>
+              </h4>
+              <p class="text-muted">
+                This certification offers a fundamental understanding of machine learning, focusing on important ideas and 
+                algorithms. It features hands-on exercises that allow you to practice applying your knowledge to real-life 
+                situations.
+              </p>
+              <a href="https://www.credly.com/badges/ffeb1c88-b318-4007-be96-5940997dd6fb/public_url" class="read-more-btn link" >Read More</a>
+            </div>
+          </div>
+        </div>
+
+
+
+          <!-- First Layer -->
+          <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+            <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+              <div class="card">
+                <div class="card-body px-4">
+                  <small>By  Amazon Web Services</small>
+                  <h4 class="card-title">
+                    <a href="">AWS Academy Graduate - AWS Academy Machine Learning Foundations</a>
+                  </h4>
+                  <p class="text-muted">
+                    This certification offers fundamental knowledge of machine learning and the use of AWS (Amazon Web Services). 
+                    It includes practical experience in creating, training, and launching machine learning models using AWS tools 
+                    and services.
+                  </p>
+                  <a href="https://www.credly.com/badges/fa7d3102-8e24-4ca7-995d-ee24a019c03e/public_url" class="read-more-btn link" >Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+              <div class="card">
+                <div class="card-body px-4">
+                  <small>By Salesforce</small>
+                  <h4 class="card-title">
+                    <a href="">Salesforce Certified AI Associate</a>
+                  </h4>
+                  <p class="text-muted">
+                    This certification validates foundational knowledge of AI concepts, ethical considerations, and practical 
+                    applications within the Salesforce ecosystem. It demonstrates expertise in leveraging AI-driven insights to 
+                    enhance business processes and customer experiences.
+
+                  </p>
+                  
+                  <a href="https://drive.google.com/file/d/1cH4X-j6e7ArHAKw-utBJXj8EVc8GkOR5/view" class="read-more-btn link" >Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+              <div class="card">
+                <div class="card-body px-4">
+                  <small>By Forage</small>
+                  <h4 class="card-title">
+                    <a href="">PwC Switzerland Power BI Job Simulation</a>
+                  </h4>
+                  <p class="text-muted">
+                    This simulation involved analyzing HR data using Power BI, creating interactive dashboards, and generating 
+                    insights to support data-driven decision-making. It enhanced my skills in data visualization, report building, 
+                    and business intelligence.
+                  </p>
+                  <a href="https://drive.google.com/file/d/1U7t2Avh7QS5h3OitHiZtJLV10GOU_HiJ/view?usp=sharing" class="read-more-btn link" >Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          
+           
+
+        
+        
+    </section>
+    <!-- Certifications section ends here -->
+
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+        <h3>Any Questions? Feel Free to Contact</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-globe-americas"></i>
+            </div>        
+                    
+            <div class="col-11">
+              <a href="https://www.hackerrank.com/profile/21A31A42B7" style="text-decoration: none;">
+                  <p>HackerRank</p>
+              </a>
+          </div>
+          
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>+919966348919</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-send-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>manohar48936@gmail.com</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-globe-americas"></i>
+            </div>
+            <div class="col-11">
+              <a href="https://leetcode.com/u/manohar_kondeti/" style="text-decoration: none;">
+                  <p>Leetcode</p>
+              </a>
+          </div>
+          
+          </div>
+        </div>
+        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+          <div class="contact-form">
+            <div class="mb-3">
+              <input type="text" class="form-control" id="name" placeholder="Name" required />
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="email" placeholder="E-mail" required />
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="mobile" placeholder="Mobile No." required />
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" id="message" placeholder="Message" rows="5" required></textarea>
+            </div>
+            <button id="sendBtn" class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">Submit</button>
+          </div>
+        </div>
+        
+        <!-- Include EmailJS SDK -->
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script src="script.js"></script> <!-- Link to external JavaScript file -->
+        
+      </div>
+    </section>
+    <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        <a href="#service">Internship</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Portfolio</a>
+        <div class="vr"></div>
+        <a href="#blog">Certificates</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <button href="" class="rounded-pill behance">
+           <a href="https://www.linkedin.com/in/manohar-kondeti/" class="rounded-pill dribble">
+            <i class="bi bi-linkedin"></i>
+        </a>
+        
+        </button>
+        
+        <button href="" class="rounded-pill behance">
+          <a href="https://github.com/manohar48936" class="rounded-pill behance">
+            <i class="bi bi-github"></i>
+        </a>        
+        </button>
+      </div>
+      <hr class="text-muted my-4" />
+
+      <p>Copyright &copy; 2025 Manohar Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
