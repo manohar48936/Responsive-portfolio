@@ -1,6 +1,8 @@
 # 🌟 Kondeti Veera Venkata Surya Sai Manohar - AI/ML Portfolio
 
-🚀 Welcome to my portfolio! I'm an AI & ML enthusiast passionate about data science, machine learning, and AI-driven innovations. I love working on impactful projects and continuously learning new technologies. 
+🚀 Welcome to my portfolio! I'm an AI & ML enthusiast passionate about data science, machine learning, and AI-driven innovations. I love working on impactful projects and continuously learning new technologies.  
+
+🖥️ **Check out my portfolio website here:** [manohar48936.github.io](https://manohar48936.github.io/Responsive-portfolio/)  
 
 ---
 
@@ -31,6 +33,10 @@
 🔹 **Tech Stack:** Python, Pandas, Matplotlib  
 🔹 **Overview:** Conducted exploratory data analysis on weather datasets to uncover key insights and improve data-driven decision-making.  
 
+### 3️⃣ [AI-PDF-Assistant](https://github.com/manohar48936/AI-PDF-Assistant)  
+🔹 **Tech Stack:** Python, LangChain, OpenAI API, Streamlit  
+🔹 **Overview:** Built an AI-powered PDF assistant that can extract, summarize, and analyze PDF documents using **NLP techniques**. Implemented a **chat-based interaction** for seamless document querying.  
+
 ---
 
 ## 📜 **Certifications**  
@@ -43,6 +49,7 @@
 
 ## 📬 **Contact Me**  
 📧 **Email:** manohar48936@gmail.com  
+🔗 **Portfolio Website:** [manohar48936.github.io](https://manohar48936.github.io/Responsive-portfolio/)  
 🔗 **LinkedIn:** [manohar-kondeti](https://www.linkedin.com/in/manohar-kondeti)  
 💻 **GitHub:** [manohar48936](https://github.com/manohar48936)  
 
